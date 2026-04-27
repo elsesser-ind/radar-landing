@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Radar">
+  <!--
+    Лого Radar: два здания в cabinet-проекции (объём через сплошные боковые и верхние грани).
+    Только два цвета: белый фон + petrol #00736c. Горящее окно убрано.
+  -->
+
+  <!-- White background circle -->
+  <circle cx="256" cy="256" r="256" fill="#ffffff" />
+
+  <!--
+    Depth vector = (+35, -22) — вправо-вверх.
+    Глобальный shift композиции вниз чтобы уместить подпись.
+  -->
+
+  <!-- Правое здание (выше, уже) — рисуется первым, ЛЕВОЕ перекроет его грани -->
+  <!-- Top face (solid green) -->
+  <polygon points="300,108 395,108 430,86 335,86" fill="#00736c" />
+  <!-- Right face (solid green) -->
+  <polygon points="395,108 395,360 430,338 430,86" fill="#00736c" />
+  <!-- Front face (white + green outline) -->
+  <rect x="300" y="108" width="95" height="252" fill="#ffffff" stroke="#00736c" stroke-width="6" stroke-linejoin="round" />
+
+  <!-- Левое здание (ниже, шире) -->
+  <!-- Top face -->
+  <polygon points="128,172 256,172 291,150 163,150" fill="#00736c" />
+  <!-- Right face -->
+  <polygon points="256,172 256,360 291,338 291,150" fill="#00736c" />
+  <!-- Front face -->
+  <rect x="128" y="172" width="128" height="188" fill="#ffffff" stroke="#00736c" stroke-width="6" stroke-linejoin="round" />
+
+  <!-- Edges of depth (тонкие линии чтобы грани читались лучше) -->
+  <g stroke="#00736c" stroke-width="4" stroke-linecap="round">
+    <line x1="128" y1="172" x2="163" y2="150" />
+    <line x1="300" y1="108" x2="335" y2="86" />
+  </g>
+
+  <!-- Окна-точки, левое здание: 4 cols × 6 rows -->
+  <g fill="#00736c">
+    <circle cx="146" cy="192" r="6" /><circle cx="172" cy="192" r="6" /><circle cx="198" cy="192" r="6" /><circle cx="224" cy="192" r="6" />
+    <circle cx="146" cy="220" r="6" /><circle cx="172" cy="220" r="6" /><circle cx="198" cy="220" r="6" /><circle cx="224" cy="220" r="6" />
+    <circle cx="146" cy="248" r="6" /><circle cx="172" cy="248" r="6" /><circle cx="198" cy="248" r="6" /><circle cx="224" cy="248" r="6" />
+    <circle cx="146" cy="276" r="6" /><circle cx="172" cy="276" r="6" /><circle cx="198" cy="276" r="6" /><circle cx="224" cy="276" r="6" />
+    <circle cx="146" cy="304" r="6" /><circle cx="172" cy="304" r="6" /><circle cx="198" cy="304" r="6" /><circle cx="224" cy="304" r="6" />
+    <circle cx="146" cy="332" r="6" /><circle cx="172" cy="332" r="6" /><circle cx="198" cy="332" r="6" /><circle cx="224" cy="332" r="6" />
+  </g>
+
+  <!-- Окна-точки, правое здание: 3 cols × 8 rows -->
+  <g fill="#00736c">
+    <circle cx="316" cy="130" r="6" /><circle cx="342" cy="130" r="6" /><circle cx="368" cy="130" r="6" />
+    <circle cx="316" cy="158" r="6" /><circle cx="342" cy="158" r="6" /><circle cx="368" cy="158" r="6" />
+    <circle cx="316" cy="186" r="6" /><circle cx="342" cy="186" r="6" /><circle cx="368" cy="186" r="6" />
+    <circle cx="316" cy="214" r="6" /><circle cx="342" cy="214" r="6" /><circle cx="368" cy="214" r="6" />
+    <circle cx="316" cy="242" r="6" /><circle cx="342" cy="242" r="6" /><circle cx="368" cy="242" r="6" />
+    <circle cx="316" cy="270" r="6" /><circle cx="342" cy="270" r="6" /><circle cx="368" cy="270" r="6" />
+    <circle cx="316" cy="298" r="6" /><circle cx="342" cy="298" r="6" /><circle cx="368" cy="298" r="6" />
+    <circle cx="316" cy="326" r="6" /><circle cx="342" cy="326" r="6" /><circle cx="368" cy="326" r="6" />
+  </g>
+
+  <!-- Базовая линия земли -->
+  <line x1="88" y1="360" x2="444" y2="360" stroke="#00736c" stroke-width="6" stroke-linecap="round" />
+
+  <!-- Signature -->
+  <text
+    x="256"
+    y="422"
+    text-anchor="middle"
+    font-family="'Playfair Display', Georgia, serif"
+    font-style="italic"
+    font-weight="600"
+    font-size="48"
+    fill="#00736c"
+    letter-spacing="10"
+  >
+    RADAR
+  </text>
+  <text
+    x="256"
+    y="456"
+    text-anchor="middle"
+    font-family="'Inter', system-ui, sans-serif"
+    font-weight="500"
+    font-size="13"
+    fill="#00736c"
+    opacity="0.65"
+    letter-spacing="4"
+  >
+    BY ELSESSER &amp; CO.
+  </text>
+</svg>
