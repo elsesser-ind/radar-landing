@@ -18,16 +18,18 @@ const body = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Radar — Elsesser & Co.",
+  title: "Radar — by Elsesser Ind.",
   description: "Радар собственников: первые звонки раньше конкурентов",
   applicationName: "Radar",
   manifest: "/manifest.json",
   icons: {
     icon: [
-      { url: "/favicon.svg", type: "image/svg+xml" },
-      { url: "/bot-avatar.svg", type: "image/svg+xml", sizes: "any" },
+      { url: "/favicon-32.png", type: "image/png", sizes: "32x32" },
+      { url: "/favicon-16.png", type: "image/png", sizes: "16x16" },
+      { url: "/icon-192.png", type: "image/png", sizes: "192x192" },
+      { url: "/icon-512.png", type: "image/png", sizes: "512x512" },
     ],
-    apple: "/bot-avatar.svg",
+    apple: { url: "/apple-icon.png", sizes: "180x180" },
   },
   appleWebApp: {
     capable: true,

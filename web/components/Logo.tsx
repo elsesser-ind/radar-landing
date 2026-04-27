@@ -5,7 +5,7 @@ import clsx from "clsx";
  * Radar logo — letter "R" with a radar dial.
  *
  * Variants:
- *  - mark — square brand mark only (top-bars, bot-avatar)
+ *  - mark — square brand mark only
  *  - full — mark + RADAR / BY ELSESSER & CO. wordmark
  */
 export function Logo({

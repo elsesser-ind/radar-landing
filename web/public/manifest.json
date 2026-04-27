@@ -1,5 +1,5 @@
 {
-  "name": "Radar by Elsesser & Co.",
+  "name": "Radar by Elsesser Ind.",
   "short_name": "Radar",
   "description": "Радар собственников для риелторов",
   "start_url": "/",
@@ -8,12 +8,6 @@
   "theme_color": "#1a2447",
   "orientation": "portrait",
   "icons": [
-    {
-      "src": "/favicon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "any"
-    },
     {
       "src": "/icon-192.png",
       "sizes": "192x192",
