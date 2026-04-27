@@ -64,11 +64,6 @@ Brand palette and typography are mirrored from the parent agency site (elsesserc
 | `ink` / `ink-soft`| `#333` / `#666` | Body text                          |
 | `line`            | `#e0e0e0` | Dividers                                |
 
-## Notes
-
-- The `Radar Mokups/` folder (Figma exports and reference screenshots) is intentionally **excluded from the repository** via `.gitignore`.
-- Production build is fully static (`output` is prerendered) — deployable to any static host or Vercel/Cloudflare Pages.
-
 ## License
 
 Proprietary — Elsesser Ind.
