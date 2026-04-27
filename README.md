@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/banner.png" alt="Radar by Elsesser & Co." width="100%" />
+</p>
+
 # Radar Landing
 
 > Marketing landing page for **Radar by Elsesser & Co.** — an AI agent for realtors that surfaces owner listings (Avito, CIAN, Yandex.Realty, etc.) before competitors.

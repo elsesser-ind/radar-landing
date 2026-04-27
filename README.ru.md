@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/banner.png" alt="Radar by Elsesser & Co." width="100%" />
+</p>
+
 # Radar Landing
 
 > Маркетинговый лендинг **Radar by Elsesser & Co.** — AI-агент для риелторов, который показывает объявления собственников (Avito, ЦИАН, Яндекс.Недвижимость и др.) раньше конкурентов.
